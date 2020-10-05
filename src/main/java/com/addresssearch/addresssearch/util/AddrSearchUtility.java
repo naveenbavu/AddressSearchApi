@@ -1,6 +1,6 @@
 package com.addresssearch.addresssearch.util;
 
-import com.addresssearch.addresssearch.Address;
+import com.addresssearch.addresssearch.model.Address;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
