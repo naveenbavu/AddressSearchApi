@@ -9,8 +9,14 @@ import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
 import org.springframework.util.ResourceUtils;
 
-
+/**
+ * @author Naveen Bavu
+ */
 public class JsonToJavaMapper {
+
+    /**
+     * This method will read json file an Object
+     */
     public static <T> T read(String file, Class<T> clazz) {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
