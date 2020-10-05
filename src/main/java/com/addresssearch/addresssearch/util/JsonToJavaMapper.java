@@ -1,4 +1,4 @@
-package com.addresssearch.addresssearch.service;
+package com.addresssearch.addresssearch.util;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,7 +8,6 @@ import java.io.IOException;
 import lombok.experimental.UtilityClass;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
-import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
 /**
